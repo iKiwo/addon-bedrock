@@ -1,0 +1,25 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Scripting Addon",
+    "description": "This is an addon for mcpe",
+    "uuid": "e761d378-661d-4ead-8a76-8fcb0410013e",
+    "version": [1, 0, 2],
+    "min_engine_version": [1, 21, 70]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "08a6de8f-4e1a-4d50-916a-4939e2364dbb", 
+      "version": [1, 0, 2],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.0.0-beta"
+    }
+  ]
+}
